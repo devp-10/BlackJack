@@ -13,7 +13,6 @@ class Player:
 
 
     def decide_hit(self):
-        # DO NOT MODIFY
         return random.choice([True, True, False])
 
     def deal_to(self, card_value):
